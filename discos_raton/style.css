@@ -1,0 +1,236 @@
+.menu {
+font-family: Helvetica;
+display: inline-flex;
+width: 40%;
+padding: 15px;
+justify-content: center;
+}
+.post1{
+    font-family: Helvetica;
+    text-align:center;
+    background: linear-gradient(to right,#ae6bf2,white);
+    margin-top: -15px;
+    height: 700px;
+    padding-top: 50px;
+}
+.post1 h2,.post1 p {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.post2{
+    font-family: Helvetica;
+    text-align: center;
+    background: linear-gradient(to right, white,#42ff00);
+    margin-top: -15px;
+    height: 700px;
+    padding-top: 50px;
+}
+.post2 h2,.post2 p {
+    text-align: left;
+    margin-left: 10%;
+}
+.post3{
+    font-family: Helvetica;
+    text-align: center;
+    background: linear-gradient(to right,#ae6bf2,white);
+    margin-top: -15px;
+    margin-bottom: -10px;
+    height: 700px;
+    padding-top: 50px;
+}
+.post3 h2,.post3 p {
+    text-align: left;
+    margin-left: 10%;
+}
+.post4{
+    font-family: HelveticaNeue;
+    text-align: center;
+    float:left; 
+    width: 33.3%;
+    margin-top: 50px;
+}
+.post4>section {
+height: 400px;
+}
+span {
+    vertical-align:5px;
+    }
+.post5{
+    text-align: center;
+    float:left; 
+    width: 50%;
+    margin-top: 100px;
+}
+.post6{
+    font-family: HelveticaNeue;
+    text-align: left;
+    float:left; 
+    width: 50%;
+    margin-bottom: 100px;
+
+}
+.post6>section {
+    text-align:justify;
+}
+.post7{
+    font-family: HelveticaNeue;
+    text-align: center;
+    width: 100%;
+    height: 200PX;
+}
+.post7>section>img, .post10>section>img, .post10>section>a>img, .post8>section>a>img, .post9>section>a>img {
+    border-radius: 10px;
+    display: inline;
+
+}
+
+.post8{
+    font-family: HelveticaNeue;
+    text-align: left;
+    float:left; 
+    width: 40%;
+    height: 1550px;
+    margin-left: 10%;
+}
+.post9{
+    font-family: HelveticaNeue;
+    text-align: left;
+    float:right; 
+    width: 40%;
+    height: 1550px;
+    margin-left: 10%;
+}
+.post10{
+    font-family: HelveticaNeue;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    height: 750px;
+}
+ul {
+    list-style: none;
+}
+nav ul{
+    max-width: 100%;
+}
+nav li{
+    display: inline-block;
+    padding-left: 50px;
+
+}
+nav a{
+    color: black;
+    padding: 10px;
+    list-style-type: none;
+
+}
+.menu-footer{
+    font-family: HelveticaNeue;
+    text-align: left;
+    width: 30.3%; 
+    height: 200px;
+    float:left; 
+    background-color: black;
+    color:#42ff00;
+    margin-top: -10px;
+    padding-left: 3%;
+}
+.menu-footer>p {
+    font-weight: bold;
+}
+.menu-footer>ul{
+    padding-left: 0;
+}
+#searchthis #search-btn{display:none;}
+#searchthis #search-box{
+background: transparent;
+color:#42ff00;
+height:25px;
+float: center;
+width: 95%;
+letter-spacing: 2px;
+text-align:left;
+border-bottom-color: #42ff00;
+border-width: 10px;
+border-left: none;
+border-right: none;
+border-top:none;
+margin-bottom: 10px;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+/*nav > hr {
+    background-color:#42ff00;
+    height: 6px;
+
+}*/
+a {
+    color: #42ff00;
+    text-decoration: none;
+}
+aside>img, aside>a>img {
+    border-radius: 10px;
+    display: inline;
+}
+aside>h3 {
+    display: flex;
+    justify-content: right;
+    font-family: helvetica;
+
+    
+}
+aside>a {
+    display: flex;
+    justify-content: right;
+}
+aside>aside>p {
+    letter-spacing: 1.5px;
+}
+.menucesta:visited {
+    color: #ae6bf2;
+}
+
+.menucesta:hover {
+background-color: #42ff00;
+transition: 1s;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: justify;
+    margin-left: 15%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+td {
+    font-family: HelveticaNeue;
+    border-top: solid 0.5px gray;
+    border-bottom: solid 0.5px gray;
+}
+th {
+    font-family: Helvetica;
+    font-weight: bold;
+    height: 100px;
+    border-bottom: solid 0.5px gray;
+}
+tr:hover {
+    background-color: #eee;
+}
+.controls {
+    width: 80%;
+    background: #f9fbfc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'helveticaneue';
+    font-size: 18px;
+  }
+  .accent-green {
+    accent-color: #42ff00 ;
+}
